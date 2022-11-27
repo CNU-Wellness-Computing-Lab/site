@@ -1,0 +1,81 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<h3 class="fw-bold border-bottom pb-3 mb-5">Team</h3>
+
+  <!--Professor-->
+<h3>Professor</h3>
+{% for professor in site.data.settings.professor %}
+<div class="row g-5 mb-5">
+  <div class="col-md-2">
+    <img src="{{ site.github.url }}/{{ professor.image }}" alt="Contact" width="130px">
+  </div>
+  <div class="col-md-6">
+    <h5>{{ professor.name }}</h5>
+    <p>{{ professor.institution }}</p>
+    <p>Email: {{ professor.email }}</p>
+    <p>
+      <a href="{{ professor.url }}" target="_blank">[Homepage]</a>
+      <a href="{{ professor.cv }}" target="_blank">[CV]</a>
+      <a href="{{ professor.google_scholar }}" target="_blank">[Google Scholar]</a>
+    </p>
+  </div>
+</div>
+{% endfor %}
+
+
+  <!--Students-->
+<h3>Students</h3>
+<!-- <h4>Ph.D Graduate Students</h4>
+{% for team in site.data.settings.team %}
+{% if team.degree == "phd" %}
+<div class="row g-5 mb-5">
+  <div class="col-md-2">
+    <img src="{{ site.github.url }}/{{ team.image }}" alt="Contact" width="130px">
+  </div>
+  <div class="col-md-6">
+    <h5>{{ team.name }}</h5>
+    <p>Email: {{ team.email }}</p>
+    <p>Major: {{ team.department }}</p>
+    <p>Site: <a href=" {{ team.url }}" target="_blank">{{ team.url }}</a></p>
+  </div>
+</div>
+{% endif %}
+{% endfor %} -->
+
+<h4>Master Graduate Students</h4>
+{% for team in site.data.settings.team %}
+{% if team.degree == "master" %}
+<div class="row g-5 mb-5">
+  <div class="col-md-2">
+    <img src="{{ site.github.url }}/{{ team.image }}" alt="Contact" width="130px">
+  </div>
+  <div class="col-md-6">
+    <h5>{{ team.name }}</h5>
+    <p>Email: {{ team.email }}</p>
+    <p>Major: {{ team.department }}</p>
+    <p>Site: <a href=" {{ team.url }}" target="_blank">{{ team.url }}</a></p>
+  </div>
+</div>
+{% endif %}
+{% endfor %}
+
+<h4>Undergraduate Students</h4>
+{% for team in site.data.settings.team %}
+{% if team.degree == "bachelor" %}
+<div class="row g-5 mb-5">
+  <div class="col-md-2">
+    <img src="{{ site.github.url }}/{{ team.image }}" alt="Contact" width="130px">
+  </div>
+  <div class="col-md-6">
+    <h5>{{ team.name }}</h5>
+    <p>Email: {{ team.email }}</p>
+    <p>Major: {{ team.department }}</p>
+    <p>Site: <a href=" {{ team.url }}" target="_blank">{{ team.url }}</a></p>
+  </div>
+</div>
+{% endif %}
+{% endfor %}

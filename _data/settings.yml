@@ -1,0 +1,33 @@
+menu:
+- {name: 'Research', url: '/research'}
+- {name: 'Publications', url: '/publications'}
+- {name: 'Team', url: '/team'}
+- {name: 'News', url: '/news'}
+# - {name: 'CV', url: '/cv'}
+- {name: 'Contact', url: '/contact'}
+
+professor:
+- {name: 'Jaejeung Kim', title: 'Professor', department: 'Artificial Intelligence', institution: 'Chungnam National University', email: 'jjkim@cnu.ac.kr', office: 'Science Building 505', image: 'assets/team_profile/professor.jpeg', url: 'https://sites.google.com/view/jaejeungkim?pli=1', cv: 'https://drive.google.com/file/d/1tWLTVvR__s30q_uPW4EYQOf96u__avMO/view?usp=sharing', google_scholar: 'https://scholar.google.com/citations?user=JLuJIecAAAAJ&hl=en'}
+
+team:
+# degree => 박사과정:phd / 석사과정:master / 학부연구생:bachelor
+# 프로필 사진은 assets/team_profile/
+- {name: 'Yuju Kang', title: 'Student', degree: 'master', department: 'Network & Security', institution: 'Chungnam National University', email: 'yuju@o.cnu.ac.kr', url: '', image: 'assets/team_profile/yujuKang.jpg'}
+- {name: 'Gyeyoung Jung', title: 'Student', degree: 'master', department: 'Artificial Intelligence', institution: 'Chungnam National University', email: 'hello@university.edu', url: '', image: 'assets/team_profile/GyeyoungJung.jpeg'}
+- {name: 'Jaeyong Lee', title: 'Student', degree: 'master', department: 'Artificial Intelligence', institution: 'Chungnam National University', email: 'hello@university.edu', url: '', image: 'assets/team_profile/JaeyongLee.jpeg'}
+- {name: 'Sinyoung Bok', title: 'Student', degree: 'bachelor', department: 'Computer&Science Engineering', institution: 'Chungnam National University', email: 'sinyoungbok99@gmail.com', url: 'https://www.linkedin.com/in/sin-young-bok-875bba190/', image: 'assets/team_profile/sinyoungBok.png'}
+- {name: 'Seongsoo Kim', title: 'Student', degree: 'bachelor', department: 'Computer&Science Engineering', institution: 'Chungnam National University', email: 'hello@university.edu', url: '', image: 'assets/team_profile/SeungsooKim.jpeg'}
+
+courses:
+- {name: 'Vector Calculus', url: 'vector-calculus'}
+- {name: 'Quantum Mechanics', url: 'quantum-mechanics'}
+- {name: 'Stellar Structures', url: 'stellar-structures'}
+
+social:
+- {icon: 'github', link: 'https://github.com/LeNPaul'}
+- {icon: 'twitter', link: 'https://twitter.com/paululele'}
+- {icon: 'instagram', link: 'https://instagram.com/paululele'}
+- {icon: 'linkedin', link: 'https://linkedin.com/in/lenpaul'}
+
+contacts:
+- {title: 'Human-Computer Interaction Lab', institution: 'Chungnam National University', institution_address: '99 Daehak-ro, Daejon, 305-764, Korea', email: 'cnuhcilab@gmail.com', office: 'Room No.6606, Engineering Building No.5(W2)', image: 'assets/img/contact.jpg'}

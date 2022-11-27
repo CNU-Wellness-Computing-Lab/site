@@ -1,0 +1,3 @@
+# 프로젝트 이미지 파일은 assets/project_img/ 에 저장합니다.
+project:
+- {name: '프로젝트 예시', author: '프로젝트참여자', publication: 'publication', url: '링크', image: 'assets/project_img/lockntype.png'}
