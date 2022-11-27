@@ -24,10 +24,10 @@ courses:
 - {name: 'Stellar Structures', url: 'stellar-structures'}
 
 social:
-- {icon: 'github', link: 'https://github.com/LeNPaul'}
-- {icon: 'twitter', link: 'https://twitter.com/paululele'}
-- {icon: 'instagram', link: 'https://instagram.com/paululele'}
-- {icon: 'linkedin', link: 'https://linkedin.com/in/lenpaul'}
+- {icon: 'github', link: 'https://github.com/CNU-HCI-Lab'}
+- {icon: 'twitter', link: ''}
+- {icon: 'instagram', link: ''}
+- {icon: 'youtube', link: ''}
 
 contacts:
 - {title: 'Human-Computer Interaction Lab', institution: 'Chungnam National University', institution_address: '99 Daehak-ro, Daejon, 305-764, Korea', email: 'cnuhcilab@gmail.com', office: 'Room No.6606, Engineering Building No.5(W2)', image: 'assets/img/contact.jpg'}
