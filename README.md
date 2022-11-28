@@ -30,6 +30,16 @@ Jekyll 기반으로 생성되었습니다.
 
 **index:** 에는 publication페이지에 게시할 내용을 작성
 
+```yml
+featured:
+# 메인화면에 표시할 내용
+- {name: '논문제목', url: '참고링크'}
+
+index:
+# publication 화면에 표시할 내용
+- {name: '논문제목', author: '저자', date: '발행일', url: '참고링크'}
+```
+
 * * *
 
 ### Team
