@@ -1,7 +1,9 @@
 featured:
+# 메인화면에 표시할 내용
 - {name: '논문제목1', url: '/publications/1501.07274.pdf'}
 - {name: '논문제목2', url: ''}
 
 index:
+# publication 화면에 표시할 내용
 - {name: '논문제목1', author: '저자1', date: '2020', url: '/publications/1501.07274.pdf'}
 - {name: '논문제목2', author: '저자2', date: '2022', url: ''}
