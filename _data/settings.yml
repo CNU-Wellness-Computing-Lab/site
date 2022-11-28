@@ -3,7 +3,6 @@ menu:
 - {name: 'Publications', url: '/publications'}
 - {name: 'Team', url: '/team'}
 - {name: 'News', url: '/news'}
-# - {name: 'CV', url: '/cv'}
 - {name: 'Contact', url: '/contact'}
 
 professor:
@@ -18,10 +17,10 @@ team:
 - {name: 'Sinyoung Bok', title: 'Student', degree: 'bachelor', department: 'Computer&Science Engineering', institution: 'Chungnam National University', email: 'sinyoungbok99@gmail.com', url: 'https://www.linkedin.com/in/sin-young-bok-875bba190/', image: 'assets/team_profile/sinyoungBok.png'}
 - {name: 'Seongsoo Kim', title: 'Student', degree: 'bachelor', department: 'Computer&Science Engineering', institution: 'Chungnam National University', email: 'hello@university.edu', url: '', image: 'assets/team_profile/SeungsooKim.jpeg'}
 
-courses:
-- {name: 'Vector Calculus', url: 'vector-calculus'}
-- {name: 'Quantum Mechanics', url: 'quantum-mechanics'}
-- {name: 'Stellar Structures', url: 'stellar-structures'}
+# courses:
+# - {name: 'Vector Calculus', url: 'vector-calculus'}
+# - {name: 'Quantum Mechanics', url: 'quantum-mechanics'}
+# - {name: 'Stellar Structures', url: 'stellar-structures'}
 
 social:
 - {icon: 'github', link: 'https://github.com/CNU-HCI-Lab'}
