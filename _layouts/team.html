@@ -39,7 +39,7 @@ layout: default
   <div class="col-md-6">
     <h5>{{ team.name }}</h5>
     <p>Email: {{ team.email }}</p>
-    <p>Major: {{ team.department }}</p>
+    <p>Research Interest: {{ team.interest }}</p>
     <p>Site: <a href=" {{ team.url }}" target="_blank">{{ team.url }}</a></p>
   </div>
 </div>
@@ -56,7 +56,7 @@ layout: default
   <div class="col-md-6">
     <h5>{{ team.name }}</h5>
     <p>Email: {{ team.email }}</p>
-    <p>Major: {{ team.department }}</p>
+    <p>Research Interest: {{ team.interest }}</p>
     <p>Site: <a href=" {{ team.url }}" target="_blank">{{ team.url }}</a></p>
   </div>
 </div>
@@ -73,9 +73,26 @@ layout: default
   <div class="col-md-6">
     <h5>{{ team.name }}</h5>
     <p>Email: {{ team.email }}</p>
-    <p>Major: {{ team.department }}</p>
+    <p>Research Interest: {{ team.interest }}</p>
     <p>Site: <a href=" {{ team.url }}" target="_blank">{{ team.url }}</a></p>
   </div>
 </div>
+{% endif %}
+{% endfor %}
+
+<!-- Alumni -->
+<h3>Alumni</h3>
+{% for team in site.data.settings.team %}
+{% if team.degree == "alumni" %}
+<div class="row g-5 mb-5">
+  <div class="col-md-2">
+    <img src="{{ site.github.url }}/{{ team.image }}" alt="Contact" width="130px">
+  </div>
+  <div class="col-md-6">
+    <h5>{{ team.name }}</h5>
+    <p>Email: {{ team.email }}</p>
+    <p>Research Interest: {{ team.interest }}</p>
+    <p>Site: <a href=" {{ team.url }}" target="_blank">{{ team.url }}</a></p>
+  </div>
 {% endif %}
 {% endfor %}
