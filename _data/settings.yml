@@ -1,7 +1,7 @@
 menu:
 - {name: 'Research', url: '/research'}
 - {name: 'Publications', url: '/publications'}
-- {name: 'Team', url: '/team'}
+- {name: 'People', url: '/team'}
 - {name: 'News', url: '/news'}
 - {name: 'Contact', url: '/contact'}
 
@@ -23,10 +23,10 @@ team:
 # - {name: 'Stellar Structures', url: 'stellar-structures'}
 
 social:
-- {icon: 'github', link: 'https://github.com/CNU-HCI-Lab'}
-- {icon: 'twitter', link: ''}
-- {icon: 'instagram', link: ''}
+- {icon: 'github', link: 'https://github.com/CNU-Wellness-Computing-Lab'}
+# - {icon: 'twitter', link: ''}
+# - {icon: 'instagram', link: ''}
 - {icon: 'youtube', link: ''}
 
 contacts:
-- {title: 'Human-Computer Interaction Lab', institution: 'Chungnam National University', institution_address: '99 Daehak-ro, Daejon, 305-764, Korea', email: 'cnuhcilab@gmail.com', office: 'Room No.5606, Engineering Building No.5(W2)', image: 'assets/img/contact.jpg'}
+- {title: 'Wellness Computing Lab', institution: 'Chungnam National University', institution_address: '99 Daehak-ro, Daejon, 305-764, Korea', email: 'cnuhcilab@gmail.com', office: 'Room No.5606, Engineering Building No.5(W2)', image: 'assets/img/contact.jpg'}

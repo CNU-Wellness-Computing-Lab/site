@@ -1,6 +1,6 @@
-# 인간-컴퓨터 상호작용 연구실 홈페이지
+# WellComLab Hompage
 
-충남대학교 인간-컴퓨터 상호작용 연구실 홈페이지입니다.
+충남대학교 Wellness Computing Laboratory 홈페이지입니다.
 
 Jekyll 기반으로 생성되었습니다.
 
@@ -20,8 +20,6 @@ Jekyll 기반으로 생성되었습니다.
 ```
 
 이미지 파일은 assets/project_img/ 에 저장합니다.
-
-* * *
 
 ### Publication
 **_data/publication.yml** 파일에 내용을 작성합니다.

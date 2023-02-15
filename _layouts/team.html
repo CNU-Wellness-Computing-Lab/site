@@ -8,9 +8,10 @@ layout: default
 
   <!--Professor-->
 <h3>Professor</h3>
+</br>
 {% for professor in site.data.settings.professor %}
 <div class="row g-5 mb-5">
-  <div class="col-md-2">
+  <div class="col-md-3">
     <img src="{{ site.github.url }}/{{ professor.image }}" alt="Contact" width="130px">
   </div>
   <div class="col-md-6">
@@ -47,10 +48,11 @@ layout: default
 {% endfor %} -->
 
 <h4>Master Graduate Students</h4>
+</br>
 {% for team in site.data.settings.team %}
 {% if team.degree == "master" %}
 <div class="row g-5 mb-5">
-  <div class="col-md-2">
+  <div class="col-md-3">
     <img src="{{ site.github.url }}/{{ team.image }}" alt="Contact" width="130px">
   </div>
   <div class="col-md-6">
@@ -64,10 +66,11 @@ layout: default
 {% endfor %}
 
 <h4>Undergraduate Students</h4>
+</br>
 {% for team in site.data.settings.team %}
 {% if team.degree == "bachelor" %}
 <div class="row g-5 mb-5">
-  <div class="col-md-2">
+  <div class="col-md-3">
     <img src="{{ site.github.url }}/{{ team.image }}" alt="Contact" width="130px">
   </div>
   <div class="col-md-6">
@@ -85,7 +88,7 @@ layout: default
 {% for team in site.data.settings.team %}
 {% if team.degree == "alumni" %}
 <div class="row g-5 mb-5">
-  <div class="col-md-2">
+  <div class="col-md-3">
     <img src="{{ site.github.url }}/{{ team.image }}" alt="Contact" width="130px">
   </div>
   <div class="col-md-6">
