@@ -21,7 +21,7 @@ Jekyll 기반으로 생성되었습니다.
 
 이미지 파일은 assets/project_img/ 에 저장합니다.
 
-<!-- ### Publication
+### Publication
 **_data/publication.yml** 파일에 내용을 작성합니다.
 
 **feature:** 에는 메인화면 게시할 내용
@@ -36,7 +36,7 @@ featured:
 index:
 # publication 화면에 표시할 내용
 - {name: '논문제목', author: '저자', date: '발행일', url: '참고링크'}
-``` -->
+```
 
 * * *
 
