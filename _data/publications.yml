@@ -1,9 +1,11 @@
 featured:
 # 메인화면에 표시할 내용
-- {name: '논문제목1', url: '/publications/1501.07274.pdf'}
-- {name: '논문제목2', url: ''}
+# - {name: '논문명', url: '/publications/1501.07274.pdf(논문링크)'}
+- {name: 'Human VS AI: Effect of Prescription Subject Reliability on Prescription Adherence in Telemedicine Application', url: ''}
+- {name: 'Real-time cognitive load quantification of drivers using smartphone sensors', url: ''}
 
 index:
 # publication 화면에 표시할 내용
-- {name: '논문제목1', author: '저자1', date: '2020', url: '/publications/1501.07274.pdf'}
-- {name: '논문제목2', author: '저자2', date: '2022', url: ''}
+# - {name: '논문명', author: '저자', date: '발행일자', url: '논문링크'}
+- {name: 'Human VS AI: Effect of Prescription Subject Reliability on Prescription Adherence in Telemedicine Application', author: '복신영, 강유주, 정계영, 김재정', date: '2023', url: ''}
+- {name: 'Real-time cognitive load quantification of drivers using smartphone sensors', author: '이재용, 정계영, 김성수, 김재정', date: '2023', url: ''}
