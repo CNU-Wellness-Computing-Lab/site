@@ -2,5 +2,6 @@
 layout: home
 title: "Home"
 ---
+Welcome to Wellcom lab!
 
-연구실소개
+We aim to design, develop and evaluate technology to support mental and physical health.
