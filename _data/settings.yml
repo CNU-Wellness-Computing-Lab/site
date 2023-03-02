@@ -11,9 +11,9 @@ professor:
 team:
 # degree => 박사과정:phd / 석사과정:master / 학부연구생:bachelor / 졸업생:alumni
 # 프로필 사진은 assets/team_profile/
-- {name: 'Yuju Kang', title: 'Student', degree: 'master', interest: 'Digital therapeutics', institution: 'Chungnam National University', email: 'yuju@o.cnu.ac.kr', url: 'https://github.com/yuju-k', image: 'assets/team_profile/yujuKang.jpg'}
+- {name: 'Yuju Kang', title: 'Student', degree: 'master', interest: 'Digital therapeutics, Medical HCI', institution: 'Chungnam National University', email: 'yuju@o.cnu.ac.kr', url: 'https://github.com/yuju-k', image: 'assets/team_profile/yujuKang.jpg'}
 - {name: 'Gyeyoung Jung', title: 'Student', degree: 'master', interest: '_', institution: 'Chungnam National University', email: 'gye0203@o.cnu.ac.kr', url: 'https://www.linkedin.com/in/gyeyoung-jung-a911b8220/', image: 'assets/team_profile/GyeyoungJung.jpeg'}
-- {name: 'Jaeyong Lee', title: 'Student', degree: 'master', interest: '_', institution: 'Chungnam National University', email: 'hello@university.edu', url: '', image: 'assets/team_profile/JaeyongLee.jpeg'}
+- {name: 'Jaeyong Lee', title: 'Student', degree: 'master', interest: 'Digital therapeutics', institution: 'Chungnam National University', email: 'ljy8972@naver.com', url: '', image: 'assets/team_profile/JaeyongLee.jpeg'}
 - {name: 'Sinyoung Bok', title: 'Student', degree: 'alumni', interest: '_', institution: 'Chungnam National University', email: 'sinyoungbok99@gmail.com', url: 'https://www.linkedin.com/in/sin-young-bok-875bba190/', image: 'assets/team_profile/sinyoungBok.png'}
 - {name: 'Seongsoo Kim', title: 'Student', degree: 'bachelor', interest: '_', institution: 'Chungnam National University', email: 'hello@university.edu', url: '', image: 'assets/team_profile/SeungsooKim.jpeg'}
 
