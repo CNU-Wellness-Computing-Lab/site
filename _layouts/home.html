@@ -3,8 +3,8 @@ layout: default
 ---
 
 <div class="">
-    <div class="fw-bold border-bottom pb-3 mb-5">
-        <h3 class="fw-bold border-bottom pb-3 mb-5">Introduction</h3>
+    <div style="height: 700px; text-align: center; padding-top: 200px;"class="fw-bold border-bottom pb-3 mb-5">
+        <h3 class="fw-bold pb-3 mb-5">Introduction</h3>
         {{ content }}
     </div>
 </div>
@@ -12,15 +12,16 @@ layout: default
 
 <div >
     <div class="">
-      <div class="fw-bold border-bottom pb-3 mb-5">
-        {% include publications.html %}
-      <!-- <img src="{{ site.github.url }}/assets/img/home.jpg" alt="Home" width="100%"> -->
-      </div>
-        <h4 class="fw-bold border-bottom pb-3 mb-5">News</h4>
+      
+        <h4 style="text-align: right;"class="fw-bold border-bottom pb-3 mb-5">News</h4>
     <!--5개만-->
           {% for post in site.posts limit:5 %}
-        <p><a href="{{ site.github.url }}/{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %-d, %Y" }}</p>
+        <p style="text-align: right; height: 200px;"><a href="{{ site.github.url }}/{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %-d, %Y" }}</p>
           {% endfor %}
+        <div style="text-align: left;height: 300px;" class="fw-bold border-bottom pb-3 mb-5">
+          {% include publications.html %}
+        <!-- <img src="{{ site.github.url }}/assets/img/home.jpg" alt="Home" width="100%"> -->
+        </div>
     </div>
 </div>
 
