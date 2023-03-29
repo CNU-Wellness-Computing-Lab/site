@@ -26,10 +26,10 @@
   </div>
   <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
     
-      <a style = "color: black;"class="me-3 py-2 text-decoration-none" href="/research">Research</a>
+      <a style="color: black;"class="me-3 py-2 text-decoration-none" href="/research">Research</a>
     
       <a style="color: black;"class="me-3 py-2 text-decoration-none" href="/publications">Publications</a>
-    
+     
       <a style="color: black;"class="me-3 py-2 text-decoration-none" href="/team">People</a>
     
       <a style="color: black;"class="me-3 py-2 text-decoration-none" href="/news">News</a>
@@ -39,40 +39,48 @@
   </nav>
 </header>
 
-      <div class="">
-    <div style="height: 700px; text-align: center; padding-top: 200px;"class="fw-bold border-bottom pb-3 mb-5">
+    <div class="">
+        <div style="height: 700px; text-align: center; padding-top: 200px;"class=" button--ujarak fw-bold border-bottom pb-3 mb-5 ">
         <h3 class="fw-bold pb-3 mb-5">Introduction</h3>
         <p>Welcome to Wellcom lab!</p>
 
-<p>We aim to design, develop and evaluate technology to support mental and physical health.</p>
+        <p>We aim to design, develop and evaluate technology to support mental and physical health.</p>
 
     </div>
 </div>
 
 
 <div >
-    <div class="">
-      
-        <h4 style="text-align: right;"class="fw-bold border-bottom pb-3 mb-5">News</h4>
+    <div>
+      <div class="">
+        <div>
+          <h4 style="text-align: right;"class="news--page fw-bold border-bottom pb-3 mb-5">News</h4>
+        </div>
     <!--5개만-->
           
         <p style="text-align: right; height: 200px; color:black" class="border-bottom pb-3 mb-5"><a style="color: black;" href="//2022/11/28/open-page.html">Open Page!</a> - November 28, 2022</p>
-          
-        <div style="text-align: left;height: 300px;" class="fw-bold pb-3 mb-5">
-          <div class="row g-5 mb-5">
-            <div>
-              <div class="border-bottom pb-3 mb-5"><h3 class ="fw-bold "style="margin-left:3%">Publications</h3></div>
-              
-                
-                  <p><a style="color: black; margin-left: 3%;" href="" target="_blank">Human VS AI: Effect of Prescription Subject Reliability on Prescription Adherence in Telemedicine Application</a></p>
-                
-                  <p><a style="color: black; margin-left: 3%;" href="" target="_blank">Real-time cognitive load quantification of drivers using smartphone sensors</a></p>
+      </div>
+
+      
+      <div style="text-align: left;height: 300px;" class="fw-bold pb-3 mb-5">
+        <div class="row g-5 mb-5">
+
+
+          <div>
+            <div class="border-bottom pb-3 mb-5 public--page"><h3 class ="fw-bold "style="margin-left:3%">Publications</h3></div>
             
+              
+                <p><a style="color: black; margin-left: 3%;" href="" target="_blank">Human VS AI: Effect of Prescription Subject Reliability on Prescription Adherence in Telemedicine Application</a></p>
+              
+                <p><a style="color: black; margin-left: 3%;" href="" target="_blank">Real-time cognitive load quantification of drivers using smartphone sensors</a></p>
           
-            </div>
+        
           </div>
-        <!-- <img src="/assets/img/home.jpg" alt="Home" width="100%"> -->
+
+
         </div>
+      <!-- <img src="/assets/img/home.jpg" alt="Home" width="100%"> -->
+      </div>
     </div>
 </div>
 
@@ -111,3 +119,98 @@
     </div>
   </body>
 </html>
+
+<style>
+/* Ujarak */
+.button--ujarak {
+  -webkit-transition: border-color 0.4s, color 0.4s;
+  transition: border-color 0.4s, color 0.4s;
+}
+.button--ujarak::before {
+  content: '';
+  position: absolute;
+  margin-top: 10%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 700px;
+  background: #37474f;
+  z-index: -1;
+  opacity: 0;
+  -webkit-transform: scale3d(0.7, 1, 1);
+  transform: scale3d(0.7, 1, 1);
+  -webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
+  transition: transform 0.4s, opacity 0.4s;
+  -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+  transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+.button--ujarak.button--round-s::before {
+  border-radius: 2px;
+}
+.button--ujarak.button--inverted::before {
+  background: #ffffff;
+}
+.button--ujarak,
+.button--ujarak::before {
+  -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+  transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+.button--ujarak:hover {
+  color: #fff;
+  border-color: #ffffff;
+}
+.button--ujarak:hover::before {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.button--text-thin {
+  font-weight: 300;
+}
+.button--border-thin {
+  border: 1px solid;
+}
+
+.news--page{
+  width: 100%;
+}
+
+.news--page:hover {
+    background-color:#37474f;
+    color:#fff;
+    transition: 0.7s;
+    width: 100%;
+    
+    z-index: -1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1.5, 1, 1);
+    -webkit-transition: -webkit-transform 1s, opacity 0.4s;
+    transition: transform 1s, opacity 0.4s;
+    -webkit-transition-timing-function: cubic-bezier(0.0, 1, 0.3, 1);
+    transition-timing-function: cubic-bezier(0.0, 1, 0.3, 1);
+}
+
+.news--page:hover::before {
+-webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+
+.public--page:hover {
+    background-color:#37474f;
+    color:#fff;
+    transition: 0.7s;
+    width: 100%;
+    
+    z-index: -1;
+    -webkit-transform: scale3d(0.7, 1, 1);
+    transform: scale3d(0.8, 1, 1);
+    -webkit-transition: -webkit-transform 1s, opacity 0.4s;
+    transition: transform 1s, opacity 0.4s;
+    -webkit-transition-timing-function: cubic-bezier(0.0, 1, 0.3, 1);
+    transition-timing-function: cubic-bezier(0.0, 1, 0.3, 1);
+  }
+  .public--page:hover::before {
+  -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+  transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+</style>
