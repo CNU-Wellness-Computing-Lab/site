@@ -7,5 +7,6 @@ featured:
 index:
 # publication 화면에 표시할 내용
 # - {name: '논문명', author: '저자', date: '발행일자', url: '논문링크'}
-- {name: 'Human VS AI: Effect of Prescription Subject Reliability on Prescription Adherence in Telemedicine Application', author: 'Sinyoung Bok, Yuju Kang, Gyeyoung Jung, Jaejeung Kim', date: '2023', url: 'https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11229681'}
-- {name: 'Real-time cognitive load quantification of drivers using smartphone sensors', author: 'Jaeyong Lee, Gyeyoung Jung, Seongsoo Kim, Jaejeung Kim', date: '2023', url: 'https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11229683'}
+- {name: 'Human VS AI: Effect of Prescription Subject Reliability on Prescription Adherence in Telemedicine Application', author: 'Sinyoung Bok, Yuju Kang, Gyeyoung Jung, Jaejeung Kim', date: '2023.02', url: 'https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11229681'}
+- {name: 'Real-time cognitive load quantification of drivers using smartphone sensors', author: 'Jaeyong Lee, Gyeyoung Jung, Seongsoo Kim, Jaejeung Kim', date: '2023.02', url: 'https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11229683'}
+- {name: 'Design and Implementation of a Medication Support System using AI Speaker', author: 'Chanhui Yu, Hyunjin Lee, Jaejeung Kim', date: '2023.02', url: 'https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11229679'}
