@@ -15,7 +15,8 @@ team:
 - {name: 'Gyeyoung Jung', title: 'Student', degree: 'master', interest: '_', institution: 'Chungnam National University', email: 'gye0203@o.cnu.ac.kr', url: 'https://www.linkedin.com/in/gyeyoung-jung-a911b8220/', image: 'assets/team_profile/GyeyoungJung.jpeg'}
 - {name: 'Jaeyong Lee', title: 'Student', degree: 'master', interest: 'Digital therapeutics', institution: 'Chungnam National University', email: 'ljy8972@naver.com', url: '', image: 'assets/team_profile/JaeyongLee.jpeg'}
 - {name: 'Sinyoung Bok', title: 'Student', degree: 'alumni', interest: '_', institution: 'Chungnam National University', email: 'sinyoungbok99@gmail.com', url: 'https://www.linkedin.com/in/sin-young-bok-875bba190/', image: 'assets/team_profile/sinyoungBok.png'}
-- {name: 'Seongsoo Kim', title: 'Student', degree: 'bachelor', interest: '_', institution: 'Chungnam National University', email: 'hello@university.edu', url: '', image: 'assets/team_profile/SeungsooKim.jpeg'}
+- {name: 'Seongsoo Kim', title: 'Student', degree: 'bachelor', interest: '_', institution: 'Chungnam National University', email: 'kwangkorea@o.cnu.ac.kr', url: 'https://github.com/ssKimholy', image: 'assets/team_profile/SeungsooKim.jpeg'}
+- {name: 'Kyoungmin Kim', title: 'Student', degree: 'bachelor', interest: 'User funnel in mobile application', institution: 'Chungnam National University', email: 'kkm3120@gmail.com', url: 'https://mgpocky.github.io/', image: ''}
 
 # courses:
 # - {name: 'Vector Calculus', url: 'vector-calculus'}
